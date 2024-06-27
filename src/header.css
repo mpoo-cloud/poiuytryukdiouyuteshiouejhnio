@@ -1,0 +1,21 @@
+
+
+.logo{
+    vertical-align: middle;
+    width: 175px;
+    cursor: pointer;
+}
+
+.tttop{
+    border: 1px solid #ededed;
+    height: 68px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 876543 !important;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 3px 4px 5px #ededed;
+}

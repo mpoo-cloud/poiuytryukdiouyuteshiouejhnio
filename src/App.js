@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import { TopHeader } from './header';
+import { Pagge } from './page/page';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+        <TopHeader />
+        
+        <p style={{
+          width:'100%',
+          height:'50px',
+          // border:'1px solid red',
+          marginTop:'0',
+          zIndex:'-20'
+        }}></p>
+
+        <Pagge />
+
     </div>
   );
 }
